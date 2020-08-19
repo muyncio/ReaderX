@@ -8,6 +8,11 @@ public class main {
 
         FileReader x = new FileReader();
 
-        x.txtReader(path);
+//        x.fileReader(path);
+
+        TextStorage y = new TextStorage();
+
+        y.textStorage(path);
+        System.out.println(y.toString());
     }
 }
